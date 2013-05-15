@@ -1,0 +1,51 @@
+/* basics.css */
+body {
+	background-color: #000000;
+	color: #000000;
+}
+
+div#pageWrap {
+	background-color: #FFFFFF;
+}
+div#headerWrap {
+	border-bottom: 1px solid #000000;
+}
+div#footerWrap div {
+	border-top: 1px solid #000000;
+}
+
+/* content.css */
+div#contentWrap h1 {}
+div#contentWrap h2 {}
+div.separator {
+	border-bottom: 1px solid #000000;
+/*	background-color: #000000;*/
+}
+
+/* inputs.css */
+button {
+	background-color: #3D003D;
+	border: 1px solid #3D003D;
+	color: #F3F3F3;
+}
+button.over {
+	background-color: #F3F3F3;
+	color: #3D003D;
+}
+
+a {
+	color: #000000;
+}
+a:visited {
+	color: #000000;
+}
+
+.error {
+	color: #FF0000;
+}
+.warning {
+	color: #F7941C;
+}
+.disabled {
+	color: #999999;
+}

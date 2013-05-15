@@ -1,0 +1,109 @@
+* {
+   font-family: verdana;
+   font-size: 12px;
+}
+
+html {height: 100%;}
+
+body {
+	background: url(../img/bg_tile.png);
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	height: 100%;
+	min-height: 100%;
+}
+img {border: 0;}
+
+#pageWrap {
+	background: url(../img/bg_menu_tile.jpg) repeat-y;
+	text-align: left;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 1001px;
+	min-height: 100%;
+}
+
+/* MENU */
+#menuWrap {
+	float: left;
+	width: 220px;
+	min-height: 300px;
+}
+
+#menu {
+	padding: 30px 0 30px 16px;
+}
+.logo {
+	text-align: center;
+	text-indent: -1000px;
+	padding: 0 0 40px 0;
+	background: transparent url(../img/logo_small.png) no-repeat center top;
+}
+.logo a {
+	height: 78px;
+	display: block;
+}
+#menu ul {list-style: none; padding: 0; margin: 0;}
+#menu ul li {background: transparent url(../img/bn_bottom_open.png) no-repeat bottom left; padding-bottom: 19px;}
+#menu ul li li {background: none; padding: 0;}
+
+#menu ul li a {
+	display: block;
+	text-indent: -1000px;
+	background-repeat: no-repeat;
+	height: 66px;
+}
+
+#menu ul ul {display: none; padding: 10px 0 0; background: transparent url(../img/bn_top_open.png) no-repeat;}
+#menu ul ul.open {display: block;}
+#menu ul ul li a {height: 30px;}
+
+#menu ul li a.menu_info {background-image: url(../img/bn_top_info.png);}
+#menu ul ul li a.vision {background-image: url(../img/bn_sub_vision.png);}
+#menu ul ul li a.about {background-image: url(../img/bn_sub_about.png);}
+#menu ul ul li a.references {background-image: url(../img/bn_sub_references.png);}
+#menu ul ul li a.terms {background-image: url(../img/bn_sub_terms.png); height: 40px;}
+
+#menu ul li a.menu_flightcases {background-image: url(../img/bn_top_flightcases.png);}
+#menu ul ul li a.custom {background-image: url(../img/bn_sub_custom.png);}
+#menu ul ul li a.standard {background-image: url(../img/bn_sub_standard.png);}
+#menu ul ul li a.studie {background-image: url(../img/bn_sub_studie.png);}
+
+#menu ul li a.menu_audio {background-image: url(../img/bn_top_audio.png);}
+
+#menu ul li a.menu_rentals {background-image: url(../img/bn_top_rentals.png);}
+#menu ul ul li a.rentals_cases {background-image: url(../img/bn_sub_rentals_cases.png);}
+#menu ul ul li a.rentals_crew {background-image: url(../img/bn_sub_rentals_crew.png);}
+#menu ul ul li a.rentals_rehearsal {background-image: url(../img/bn_sub_rentals_rehearsal.png);}
+
+div#headerWrap {
+	float: left;
+	text-align: right;
+	margin: 30px 23px 10px 10px;
+	padding: 0 10px;
+	width: 728px;
+}
+
+div#contentWrap {
+	float: left;
+	margin: 0 13px 0 0;
+	width: 768px;
+	min-height: 400px;
+}
+
+div#footerWrap {
+	clear: both;
+	text-align: right;
+	margin: 30px 23px 0 10px;
+	padding: 10px 0 30px;
+	overflow: hidden;
+}
+div#footerWrap div {
+	float: right;
+	text-align: center;
+	width: 748px;
+	overflow: hidden;
+}

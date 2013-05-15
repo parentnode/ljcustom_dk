@@ -1,0 +1,44 @@
+/* modifiers */
+
+/* text */
+.b {
+	font-weight: bold;
+}
+.n {
+	font-weight: normal;
+}
+.u {
+	text-decoration: underline;
+}
+
+/* cursor */
+.clickable {
+	cursor: pointer;
+}
+.dragable {
+	cursor: move;
+}
+
+/* float */
+.fright {
+   float: right;
+}
+.fleft {
+   float: left;
+}
+
+/* alignment */
+.aright {
+   text-align: right;
+}
+.aleft {
+   text-align: left;
+}
+.acenter {
+   text-align: center;
+}
+
+/* display */
+.hidden {
+	display: none;
+}

@@ -1,0 +1,94 @@
+/* column definitions */
+div.column,
+div.columnThreeQuarters,
+div.columnTwoThirds,
+div.columnHalf,
+div.columnThird,
+div.columnQuarter {
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+div.targetContainer {
+	display:  none;
+}
+
+div.column {
+	width: 768px;
+}
+div.columnThreeQuarters {
+	width: 576px;
+}
+div.columnTwoThirds {
+	width: 512px;
+}
+div.columnHalf {
+	width: 384px;
+}
+div.columnThird {
+	width: 256px;
+}
+div.columnQuarter {
+	width: 192px;
+}
+
+div#contentWrap img {
+	margin: 0 10px 10px;
+}
+div#contentWrap label {
+	display: block;
+	clear: both;
+	margin: 0 10px;
+	padding: 0 2px 2px 0;
+	font-weight: bold;
+}
+
+/* label extra info container, primarily for errors */
+div#contentWrap label span {
+	margin: 0;
+	padding: 0 2px 0 8px;
+}
+
+div#contentWrap h1 {
+	clear: both;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 20px 5px;
+	margin: 0;
+}
+div#contentWrap h2 {
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 20px 5px;
+	margin: 0;
+}
+div#contentWrap p {
+	clear: both;
+	padding: 0 20px 5px;
+	margin: 0;
+}
+
+div#contentWrap .image img {
+	margin: 0 10px 2px;
+}
+div#contentWrap .image p {
+	padding-bottom: 10px;
+}
+
+/* separator */
+div.separator {
+	clear: both;
+	margin: 0 10px 20px 10px;
+	line-height: 1px;
+	height: 1px;
+	padding: 0;
+	padding-top: 20px;
+	font-size: 1px;
+}
+div.clear {
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}

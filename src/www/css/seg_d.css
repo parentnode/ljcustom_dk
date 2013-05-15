@@ -1,0 +1,146 @@
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 75px;
+}
+#menuWrap {
+	padding-top: 130px;
+}
+
+
+
+/* Landscape */
+/*	@media screen {*/
+@media screen and (max-width: 320px) {
+
+	.logo {position: static;}
+
+	.front #contentWrap {display: none;}
+	.front {background: none;}
+
+	.page #menuWrap {display: none;}
+	.page {background: none;}
+
+
+	.front #pageWrap {
+		min-height: 0px;
+		background-color: white;
+		background-image: url(../img/bg_menu_tile_seg_d.jpg);
+		background-repeat: repeat-y;
+		background-position: center center;
+	}
+	.page #pageWrap {
+		background: none !important;
+	}
+	#pageWrap {
+		width: auto !important;
+		height: auto !important;
+		overflow: hidden;
+	}
+	#menuWrap {
+
+		padding-top: 50px;
+		width: 100% !important;
+		float: none !important;
+		text-align: center;
+	}
+
+	#menu {
+		padding: 30px 0 !important;
+		width: 190px;
+		overflow: hidden;
+		margin: 0 auto;
+		
+	}
+	#menu ul {
+	}
+
+	#menu li {
+		margin-bottom: 10px;
+	}
+
+	.front div#headerWrap {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		border: none !important;
+		margin: 20px 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
+
+		float: none !important;
+		text-align: center !important;
+	}
+	div#headerWrap img {
+		width: 190px !important;
+	}
+
+	.page div#headerWrap {
+		border: none !important;
+		margin: 20px 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
+
+		float: none !important;
+		text-align: center !important;
+	}
+
+	div#contentWrap {
+		float: left;
+		margin: 0 10px;
+		width: auto !important;
+		min-height: 0px;
+	}
+
+	div#footerWrap {
+		margin: 0 !important;
+		
+		padding: 0px 0 20px !important;
+	}
+	div#footerWrap div {
+		border: none !important;
+		float: none !important;
+		width: auto !important;
+		padding-left: 30px;
+		text-align: center;
+		overflow: hidden;
+	}
+	div#footerWrap address,
+	div#footerWrap a {
+		width: 260px !important;
+		font-size: 18px;
+	}
+	div.column {
+		width: auto !important;
+	}
+	div.column img {
+		margin: 20px !important;
+		width: 260px;
+	}
+	div.columnThreeQuarters {
+		width: auto !important;
+	}
+	div.columnTwoThirds {
+		width: auto !important;
+	}
+	div.columnHalf {
+		width: auto;
+	}
+	div.columnThird {
+		width: auto;
+	}
+
+	div.columnThird img {
+		margin: 20px !important;
+		width: 260px;
+	}
+	div.columnQuarter {
+		width: auto;
+	}
+	div.columnQuarter img {
+		margin: 20px !important;
+		width: 260px;
+	}
+}
