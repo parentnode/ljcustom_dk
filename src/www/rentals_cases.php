@@ -1,5 +1,5 @@
 <?php $page = "rentals.php" ?>
-<?php include("php/shell_header.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.header.php") ?>
 
 <div class="column">
 	<div class="columnHalf">
@@ -14,4 +14,4 @@
 	<div class="columnHalf"><img src="img/photos/pi_half_rentals_cases_b.jpg" alt="Flightcases" /></div>
 </div>
 
-<?php include("php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.footer.php") ?>

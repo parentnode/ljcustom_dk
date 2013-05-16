@@ -1,4 +1,4 @@
-document.write('<script type="text/javascript" src="http://m.wires.dk/js/identifier.js"></script>');
+//document.write('<script type="text/javascript" src="http://m.wires.dk/js/identifier.js"></script>');
 
 var applewebkit = navigator.userAgent.toLowerCase().match(/applewebkit\/(\d\d\d)/);
 var iphone = navigator.userAgent.toLowerCase().match(/iphone/);

@@ -1,5 +1,5 @@
 <?php $page = "audio.php" ?>
-<?php include("php/shell_header.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.header.php") ?>
 
 <div class="column">
 	<div class="columnHalf">
@@ -9,4 +9,4 @@
 	</div>
 </div>
 
-<?php include("php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.footer.php") ?>

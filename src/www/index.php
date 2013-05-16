@@ -1,6 +1,6 @@
 <?php $page = "index.php" ?>
 
-<?php include("php/shell_header.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.header.php") ?>
 
 		<div class="column">
 			<h1>Velkommen til LJ Custom ApS</h1>
@@ -18,4 +18,4 @@
 		<div class="separator"></div>
 		<!--div class="column"><h2>consequat</h2><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie</p></div-->
 
-<?php include("php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.footer.php") ?>

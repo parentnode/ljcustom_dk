@@ -1,5 +1,5 @@
 <?php $page = "info.php" ?>
-<?php include("php/shell_header.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.header.php") ?>
 
 <div class="column">
 	<h1>Referencer</h1>
@@ -69,4 +69,4 @@
 
 </div>
 
-<?php include("php/shell_footer.php") ?>
+<?php include($_SERVER["LOCAL_PATH"]."/templates/shell.footer.php") ?>
