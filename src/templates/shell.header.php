@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="css/ie.css" media="all" type="text/css" />
 	<![endif]-->
 </head>
-<body class="<?= "index.php" == $page ? 'front"' : 'page' ?>">
+<body class="<?= "index.php" == $page ? 'front' : 'page' ?>">
 
 <script type="text/javascript">
 	try {

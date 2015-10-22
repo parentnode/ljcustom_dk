@@ -64,6 +64,8 @@ div#contentWrap h2 {
 	padding: 0 20px 5px;
 	margin: 0;
 }
+body.front div#contentWrap h2 {text-align: center; font-size: 30px; font-style: italic;}
+
 div#contentWrap p {
 	clear: both;
 	padding: 0 20px 5px;
