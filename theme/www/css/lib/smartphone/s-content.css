@@ -1,0 +1,23 @@
+#content div.company,
+#content div.company ul {line-height: 1.25em;}
+
+#content .scene.front h1 {position: absolute; top: 50%; margin-top: -64px; left: 50%; width: 280px; height: 128px; margin-left: -140px;
+	text-indent: -9999px; padding: 0;
+	background: transparent url(/img/logo-badge.png) no-repeat center center;
+	background-size: 280px auto;
+}
+#content .scene.front p {display: none;}
+#content .scene.front .usedby {display: none;}
+
+#content .scene.front .company {position: absolute; bottom: 15px; left: 0px; width: 100%; text-align: center;}
+
+#content .scene.front .company h2,
+#content .scene.front .company .email,
+#content .scene.front .company .tel,
+#content .scene.front .company .cvr {display: none;}
+
+
+#content .scene.terms {padding: 100px 0; margin: 0 auto; max-width: 800px;}
+#content .scene.terms h2 {padding-top: 20px;}
+
+body.terms #footer {display: none;}
