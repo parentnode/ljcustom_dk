@@ -1,6 +1,7 @@
 <div class="scene front i:front">
 
 	<h1>LJ Custom</h1>
+	<h2>Vi er flyttet <br />- men vi er her stadig.</h2>
 	<p>Custom flightcases og specialbygget musikudstyr og -udrustning.</p>
 
 	<div itemtype="http://schema.org/Organization" itemscope class="company">

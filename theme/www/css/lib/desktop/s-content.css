@@ -5,6 +5,8 @@
 	text-indent: -9999px; padding: 0;
 	background: transparent url(/img/logo-badge.png) no-repeat center center;
 }
+#content .scene.front > h2 {position: absolute; top: 50%; margin-top: 75px; left: 50%; width: 400px; height: 128px; margin-left: -200px; padding: 0; text-align: center;}
+
 #content .scene.front p {display: none;}
 #content .scene.front .usedby {display: none;}
 

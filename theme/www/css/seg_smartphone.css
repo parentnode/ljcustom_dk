@@ -48,6 +48,7 @@ dd {display: inline-block; vertical-align: top; font-size: 13px; line-height: 1.
 	background: transparent url(/img/logo-badge.png) no-repeat center center;
 	background-size: 280px auto;
 }
+#content .scene.front > h2 {position: absolute; top: 50%; margin-top: 70px; left: 50%; width: 400px; height: 128px; margin-left: -200px; padding: 0; text-align: center; font-size: 24px;}
 #content .scene.front p {display: none;}
 #content .scene.front .usedby {display: none;}
 #content .scene.front .company {position: absolute; bottom: 15px; left: 0px; width: 100%; text-align: center;}
