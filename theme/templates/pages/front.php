@@ -9,8 +9,8 @@
 		<ul class="info basic">
 			<li class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
 				<ul class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-					<li class="streetaddress" itemprop="streetAddress">Yderlandsvej 23</li>
-					<li class="city"><span class="postal" itemprop="postalCode">2300</span> <span class="locality" itemprop="addressLocality">København S</span></li>
+					<li class="streetaddress" itemprop="streetAddress">Tingerupvej 3b</li>
+					<li class="city"><span class="postal" itemprop="postalCode">4330</span> <span class="locality" itemprop="addressLocality">Hvalsø</span></li>
 					<li class="country" itemprop="addressCountry">Danmark</li>
 				</ul>
 				<ul class="geo" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
