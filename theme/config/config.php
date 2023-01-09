@@ -18,7 +18,7 @@ define("SITE_EMAIL", "laur@ljcustom.dk");
 /**
 * Optional constants
 */
-define("DEFAULT_PAGE_DESCRIPTION", "");
+define("DEFAULT_PAGE_DESCRIPTION", "Virksomheden er lukket");
 define("DEFAULT_PAGE_IMAGE", "/img/logo-large.png");
 
 define("DEFAULT_LANGUAGE_ISO", "EN");

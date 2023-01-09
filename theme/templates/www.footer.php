@@ -1,9 +1,7 @@
 	</div>
 
 	<div id="footer">
-		<ul class="servicenavigation">
-			<li class="terms"><a href="/handelsbetingelser">Handelsbetingelser</a></li>
-		</ul>
+		<ul class="servicenavigation"></ul>
 	</div>
 
 </div>

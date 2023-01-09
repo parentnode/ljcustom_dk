@@ -18,10 +18,4 @@ print '<?xml version="1.0" encoding="UTF-8"?>';
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
 	</url>
-	<url>
-		<loc><?= SITE_URL ?>/handelsbetingelser</loc>
-		<lastmod><?= date("Y-m-d", filemtime(LOCAL_PATH."/templates/pages/terms.php")) ?></lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
 </urlset>
