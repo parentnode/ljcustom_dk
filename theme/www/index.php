@@ -11,7 +11,7 @@ $action = $page->actions();
 
 
 $page->bodyClass("front");
-$page->pageTitle("Custom flightcases");
+$page->pageTitle("LJ Custom");
 
 
 $page->page(array(
