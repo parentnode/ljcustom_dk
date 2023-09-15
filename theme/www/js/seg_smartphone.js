@@ -1,6 +1,6 @@
 /*
 parentNode, Copyright 2017, https://.parentnode.dk
-asset-builder @ 2023-02-17 10:38:36
+asset-builder @ 2023-09-15 07:45:24
 */
 
 /*seg_smartphone_include.js*/
